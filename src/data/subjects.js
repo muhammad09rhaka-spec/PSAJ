@@ -1,6 +1,8 @@
 export const SUBJECTS = [
-  { id: 'agm', name: 'Pendidikan Agama dan Budi Pekerti', icon: '🕊️' },
-  { id: 'pnc', name: 'Pendidikan Pancasila', icon: '🦅' },
+  { id: 'agm', name: 'Pendidikan Agama (Paket 1)', icon: '🕊️' },
+  { id: 'agm2', name: 'Pendidikan Agama (Paket 2)', icon: '🕋' },
+  { id: 'pnc', name: 'Pendidikan Pancasila (Paket 1)', icon: '🦅' },
+  { id: 'pnc2', name: 'Pendidikan Pancasila (Paket 2)', icon: '⚖️' },
   { id: 'ind', name: 'Bahasa Indonesia', icon: '📚' },
   { id: 'mtk', name: 'Matematika', icon: '📐' },
   { id: 'sjr', name: 'Sejarah Indonesia', icon: '⏳' },
@@ -411,6 +413,1166 @@ C. Kekayaan
 D. Kekuasaan
 E. Kebebasan
 Jawaban: B`;
+
+const rawAgama2 = `1. Andi menemukan dompet di halaman sekolah tanpa identitas. Ia bingung harus berbuat apa. Tindakan terbaik adalah…
+A. Mengambil uangnya
+B. Membiarkan
+C. Menyerahkan ke guru
+D. Memberikan ke teman
+E. Menyimpan
+Jawaban: C
+
+2. Budi rajin sholat tetapi sering memamerkannya di media sosial agar dipuji. Sikap Budi termasuk…
+A. Ikhlas
+B. Riya
+C. Sabar
+D. Tawakal
+E. Syukur
+Jawaban: B
+
+3. Siti menerima berita di WhatsApp lalu langsung menyebarkannya tanpa cek kebenaran. Perilaku ini termasuk…
+A. Amanah
+B. Tabayyun
+C. Fitnah
+D. Syukur
+E. Ikhlas
+Jawaban: C
+
+4. Rina menolak ajakan teman untuk membicarakan keburukan orang lain. Sikap Rina menunjukkan…
+A. Hasad
+B. Ghibah
+C. Akhlak mulia
+D. Takabur
+E. Riya
+Jawaban: C
+
+5. Dika mengaku kepada guru bahwa ia lupa mengerjakan tugas. Sikap ini mencerminkan…
+A. Bohong
+B. Jujur
+C. Malas
+D. Takut
+E. Riya
+Jawaban: B
+
+6. Seorang siswa menyisihkan uang jajannya untuk membantu teman yang kesulitan. Perilaku ini menunjukkan…
+A. Riya
+B. Ikhlas
+C. Hasad
+D. Kufur
+E. Takabur
+Jawaban: B
+
+7. Rudi tetap tenang saat nilainya jelek dan berusaha memperbaikinya. Sikap ini adalah…
+A. Putus asa
+B. Sabar
+C. Malas
+D. Riya
+E. Takut
+Jawaban: B
+
+8. Lina menolak ajakan pergaulan bebas karena bertentangan dengan agama. Sikap Lina menunjukkan…
+A. Lemah
+B. Iman kuat
+C. Takut
+D. Ragu
+E. Malas
+Jawaban: B
+
+9. Dani tetap belajar walaupun sulit memahami materi. Hal ini menunjukkan…
+A. Malas
+B. Putus asa
+C. Semangat menuntut ilmu
+D. Takut
+E. Riya
+Jawaban: C
+
+10. Siswa menghormati guru dengan mendengarkan saat pelajaran. Ini merupakan…
+A. Akhlak buruk
+B. Akhlak terpuji
+C. Syirik
+D. Kufur
+E. Riya
+Jawaban: B
+
+11. Aldi belajar dengan giat lalu berdoa sebelum ujian. Sikap ini mencerminkan…
+A. Tawakal
+B. Malas
+C. Takut
+D. Putus asa
+E. Riya
+Jawaban: A
+
+12. Seseorang membantu orang lain agar dipuji. Ini termasuk…
+A. Ikhlas
+B. Riya
+C. Sabar
+D. Tawakal
+E. Amanah
+Jawaban: B
+
+13. Fajar dipercaya menjadi ketua kelas dan menjalankan tugas dengan baik. Ia memiliki sifat…
+A. Khianat
+B. Amanah
+C. Bohong
+D. Malas
+E. Hasad
+Jawaban: B
+
+14. Siswa menghargai perbedaan agama temannya. Ini mencerminkan…
+A. Fanatik
+B. Toleransi
+C. Sombong
+D. Hasad
+E. Kufur
+Jawaban: B
+
+15. Rina selalu membantu orang tuanya di rumah. Sikap ini disebut…
+A. Durhaka
+B. Birrul walidain
+C. Riya
+D. Hasad
+E. Takabur
+Jawaban: B
+
+16. Edo menolak membicarakan keburukan temannya. Ini berarti ia…
+A. Ghibah
+B. Menjaga lisan
+C. Hasad
+D. Bohong
+E. Riya
+Jawaban: B
+
+17. Siswa yang bersyukur atas nilai baik akan…
+A. Sombong
+B. Tenang
+C. Malas
+D. Takut
+E. Kufur
+Jawaban: B
+
+18. Toni merasa paling hebat dari teman-temannya. Sikap ini adalah…
+A. Ikhlas
+B. Sombong
+C. Sabar
+D. Tawakal
+E. Syukur
+Jawaban: B
+
+19. Seorang siswa belajar tanpa mengharap pujian. Ini adalah…
+A. Ikhlas
+B. Riya
+C. Hasad
+D. Takabur
+E. Bohong
+Jawaban: A
+
+20. Siswa membersihkan kelas bersama-sama. Ini mencerminkan…
+A. Iman
+B. Kufur
+C. Syirik
+D. Maksiat
+E. Hasad
+Jawaban: A
+
+21. Riko melihat temannya menyontek saat ujian. Ia sebaiknya…
+A. Ikut menyontek
+B. Membiarkan
+C. Menegur dengan baik
+D. Mengejek
+E. Menyebarkan
+Jawaban: C
+
+22. Sinta bermain HP saat guru menjelaskan. Ini menunjukkan…
+A. Disiplin
+B. Melanggar aturan
+C. Rajin
+D. Hebat
+E. Baik
+Jawaban: B
+
+23. Doni jarang beribadah karena sibuk bermain. Dampaknya adalah…
+A. Tenang
+B. Rugi
+C. Hebat
+D. Senang
+E. Kaya
+Jawaban: B
+
+24. Seorang siswa berbohong kepada guru. Akibatnya…
+A. Dipercaya
+B. Kehilangan kepercayaan
+C. Hebat
+D. Aman
+E. Baik
+Jawaban: B
+
+25. Siswa membantu teman belajar. Ini termasuk…
+A. Tolong menolong
+B. Riya
+C. Hasad
+D. Kufur
+E. Syirik
+Jawaban: A
+
+26. Rudi menghina temannya. Sikap ini adalah…
+A. Baik
+B. Buruk
+C. Ikhlas
+D. Sabar
+E. Amanah
+Jawaban: B
+
+27. Seseorang menepati janji kepada temannya. Ini menunjukkan…
+A. Amanah
+B. Bohong
+C. Hasad
+D. Riya
+E. Kufur
+Jawaban: A
+
+28. Dika iri melihat keberhasilan temannya. Ini disebut…
+A. Ikhlas
+B. Hasad
+C. Sabar
+D. Tawakal
+E. Syukur
+Jawaban: B
+
+29. Siswa menghormati teman berbeda agama. Ini menunjukkan…
+A. Toleransi
+B. Fanatik
+C. Hasad
+D. Kufur
+E. Syirik
+Jawaban: A
+
+30. Rina tetap semangat walau gagal. Ini menunjukkan…
+A. Pesimis
+B. Optimis
+C. Malas
+D. Takut
+E. Ragu
+Jawaban: B
+
+31. Seorang siswa menjaga aurat di sekolah. Ini adalah…
+A. Kewajiban
+B. Larangan
+C. Sunnah
+D. Makruh
+E. Mubah
+Jawaban: A
+
+32. Budi mengambil barang teman tanpa izin. Ini termasuk…
+A. Halal
+B. Haram
+C. Sunnah
+D. Baik
+E. Wajar
+Jawaban: B
+
+33. Siswa tidak menyebarkan gosip. Ini menunjukkan…
+A. Bijak
+B. Bohong
+C. Hasad
+D. Riya
+E. Takabur
+Jawaban: A
+
+34. Andi membantu tanpa mengharap balasan. Ini adalah…
+A. Ikhlas
+B. Riya
+C. Hasad
+D. Kufur
+E. Syirik
+Jawaban: A
+
+35. Siswa datang tepat waktu ke sekolah. Ini menunjukkan…
+A. Disiplin
+B. Malas
+C. Bohong
+D. Khianat
+E. Hasad
+Jawaban: A
+
+36. Rudi boros menggunakan uang jajan. Ini disebut…
+A. Hemat
+B. Mubazir
+C. Ikhlas
+D. Sabar
+E. Tawakal
+Jawaban: B
+
+37. Siswa tidak iri pada teman. Ini menunjukkan…
+A. Iman kuat
+B. Lemah
+C. Kufur
+D. Syirik
+E. Bohong
+Jawaban: A
+
+38. Rina terus belajar walau sudah lulus. Ini menunjukkan…
+A. Semangat belajar
+B. Malas
+C. Takut
+D. Riya
+E. Hasad
+Jawaban: A
+
+39. Guru berlaku adil kepada semua siswa. Ini menunjukkan…
+A. Berat sebelah
+B. Adil
+C. Sombong
+D. Hasad
+E. Bohong
+Jawaban: B
+
+40. Siswa tetap menjaga hubungan baik dengan teman lama. Ini disebut…
+A. Silaturahmi
+B. Hasad
+C. Riya
+D. Kufur
+E. Syirik
+Jawaban: A
+
+41. Andi melihat bullying di sekolah. Ia sebaiknya…
+A. Diam
+B. Ikut
+C. Membela korban
+D. Merekam
+E. Menertawakan
+Jawaban: C
+
+42. Teman meminta jawaban saat ujian. Sikap terbaik…
+A. Memberi
+B. Menolak dengan baik
+C. Membiarkan
+D. Menyontek
+E. Kabur
+Jawaban: B
+
+43. Pedagang jujur membuat pembeli percaya. Ini menunjukkan…
+A. Kerugian
+B. Kejujuran membawa keberkahan
+C. Kesulitan
+D. Kerugian
+E. Rugi
+Jawaban: B
+
+44. Seorang pejabat korupsi. Ini termasuk…
+A. Halal
+B. Dosa besar
+C. Sunnah
+D. Makruh
+E. Baik
+Jawaban: B
+
+45. Siswa menjaga kebersihan lingkungan. Ini adalah…
+A. Ibadah
+B. Maksiat
+C. Haram
+D. Kufur
+E. Syirik
+Jawaban: A
+
+46. Menghargai budaya lain menunjukkan…
+A. Toleransi
+B. Fanatik
+C. Hasad
+D. Kufur
+E. Syirik
+Jawaban: A
+
+47. Seseorang sukses karena usaha dan doa. Ini adalah…
+A. Tawakal
+B. Malas
+C. Kufur
+D. Hasad
+E. Riya
+Jawaban: A
+
+48. Menyebarkan hoaks di media sosial adalah…
+A. Dosa
+B. Pahala
+C. Sunnah
+D. Baik
+E. Hebat
+Jawaban: A
+
+49. Karyawan jujur dalam pekerjaan menunjukkan…
+A. Profesional
+B. Malas
+C. Bohong
+D. Khianat
+E. Hasad
+Jawaban: A
+
+50. Siswa menghindari pergaulan bebas menunjukkan…
+A. Iman kuat
+B. Lemah
+C. Kufur
+D. Syirik
+E. Hasad
+Jawaban: A
+
+51. Siswa dermawan disukai karena…
+A. Pelit
+B. Baik hati
+C. Sombong
+D. Hasad
+E. Kufur
+Jawaban: B
+
+52. Menjaga pandangan adalah…
+A. Ibadah
+B. Maksiat
+C. Haram
+D. Kufur
+E. Syirik
+Jawaban: A
+
+53. Saling memaafkan menunjukkan…
+A. Akhlak mulia
+B. Akhlak buruk
+C. Kufur
+D. Syirik
+E. Hasad
+Jawaban: A
+
+54. Orang suka menolong disebut…
+A. Egois
+B. Dermawan
+C. Sombong
+D. Hasad
+E. Kufur
+Jawaban: B
+
+55. Menghindari narkoba adalah…
+A. Wajib
+B. Haram
+C. Sunnah
+D. Makruh
+E. Mubah
+Jawaban: A
+
+56. Menjaga kehormatan diri adalah…
+A. Iman
+B. Kufur
+C. Syirik
+D. Maksiat
+E. Haram
+Jawaban: A
+
+57. Menghargai pendapat orang lain adalah…
+A. Toleransi
+B. Egois
+C. Sombong
+D. Hasad
+E. Kufur
+Jawaban: A
+
+58. Orang sabar akan…
+A. Rugi
+B. Mendapat pahala
+C. Malas
+D. Takut
+E. Kufur
+Jawaban: B
+
+59. Menjaga persatuan adalah…
+A. Ibadah
+B. Dosa
+C. Maksiat
+D. Haram
+E. Kufur
+Jawaban: A
+
+60. Orang baik akan…
+A. Bahagia
+B. Sengsara
+C. Rugi
+D. Malas
+E. Takut
+Jawaban: A
+
+61. Menolong teman jatuh
+A. Ibadah
+B. Maksiat
+C. Sia-sia
+D. Larangan
+E. Hukuman
+Jawaban: A
+
+62. Tidak iri pada keberhasilan teman
+A. Iman kuat
+B. Lemah
+C. Kufur
+D. Syirik
+E. Bohong
+Jawaban: A
+
+63. Belajar dengan tekun dan sabar
+A. Malas
+B. Putus asa
+C. Semangat
+D. Takut
+E. Riya
+Jawaban: C
+
+64. Hormat kepada guru saat pelajaran
+A. Akhlak buruk
+B. Akhlak mulia
+C. Syirik
+D. Kufur
+E. Riya
+Jawaban: B
+
+65. Berbohong kepada orang lain
+A. Pahala
+B. Dosa
+C. Sunnah
+D. Baik
+E. Hebat
+Jawaban: B
+
+66. Sabar menghadapi ujian hidup
+A. Rugi
+B. Pahala
+C. Malas
+D. Takut
+E. Kufur
+Jawaban: B
+
+67. Beramal dengan hati yang tulus
+A. Riya
+B. Ikhlas
+C. Hasad
+D. Takabur
+E. Bohong
+Jawaban: B
+
+68. Pamer ibadah di sosial media
+A. Ikhlas
+B. Riya
+C. Sabar
+D. Tawakal
+E. Syukur
+Jawaban: B
+
+69. Mengeluarkan sebagian harta untuk fakir miskin (Zakat)
+A. Mengotori
+B. Membersihkan
+C. Menghabiskan
+D. Mengurangi
+E. Membebani
+Jawaban: B
+
+70. Berusaha maksimal lalu menyerahkan hasil ke Allah
+A. Malas
+B. Tawakal
+C. Takut
+D. Putus asa
+E. Riya
+Jawaban: B
+
+71. Merasa diri lebih hebat dari orang lain (Sombong)
+A. Disukai
+B. Dibenci
+C. Dihargai
+D. Dipuji
+E. Dibantu
+Jawaban: B
+
+72. Menjalankan amanah dengan penuh tanggung jawab
+A. Dikhianati
+B. Dipercaya
+C. Dibenci
+D. Dijauhi
+E. Dilupakan
+Jawaban: B
+
+73. Perasaan iri atas nikmat orang lain (Hasad)
+A. Pahala
+B. Dosa
+C. Sunnah
+D. Baik
+E. Hebat
+Jawaban: B
+
+74. Membicarakan keburukan orang lain (Ghibah)
+A. Pahala
+B. Dosa
+C. Sunnah
+D. Baik
+E. Hebat
+Jawaban: B
+
+75. Menjaga hubungan baik antar sesama manusia
+A. Ibadah
+B. Maksiat
+C. Sia-sia
+D. Larangan
+E. Hukuman
+Jawaban: A
+
+76. Datang ke sekolah tepat waktu setiap hari
+A. Disiplin
+B. Buruk
+C. Malas
+D. Bohong
+E. Riya
+Jawaban: A
+
+77. Memberikan hak kepada yang berhak secara seimbang
+A. Berat sebelah
+B. Adil
+C. Sombong
+D. Hasad
+E. Bohong
+Jawaban: B
+
+78. Senang berbagi dengan orang yang membutuhkan
+A. Pelit
+B. Dermawan
+C. Sombong
+D. Hasad
+E. Kufur
+Jawaban: B
+
+79. Tidak berkata kasar kepada siapapun
+A. Baik
+B. Buruk
+C. Riya
+D. Takabur
+E. Hasad
+Jawaban: A
+
+80. Merasa cukup dan berterima kasih atas pemberian Allah
+A. Sombong
+B. Syukur
+C. Malas
+D. Takut
+E. Kufur
+Jawaban: B
+
+81. Seorang siswa aktif berdakwah di media sosial, tetapi dalam praktiknya ia sering merendahkan kelompok lain agar terlihat paling benar. Perilaku ini menunjukkan penyimpangan pada konsep ______ dalam berdakwah.
+Jawaban: Hikmah
+
+82. Seorang pengusaha selalu bersedekah besar, tetapi tujuan utamanya adalah meningkatkan citra perusahaan dan menarik pelanggan. Tindakan tersebut bertentangan dengan prinsip ______ dalam beramal.
+Jawaban: Ikhlas
+
+83. Dalam diskusi kelas, seorang siswa menolak semua pendapat orang lain tanpa mempertimbangkan dalil yang disampaikan. Sikap ini bertentangan dengan prinsip ______ dalam mencari kebenaran.
+Jawaban: Tabayyun
+
+84. Seseorang tetap berusaha maksimal dalam ujian, namun hasilnya tidak sesuai harapan dan ia menerima dengan lapang dada. Sikap ini mencerminkan kombinasi antara usaha dan konsep ______.
+Jawaban: Tawakal
+
+85. Seorang siswa menyebarkan ulang berita yang belum jelas kebenarannya karena dianggap penting untuk diketahui banyak orang. Dalam Islam, tindakan ini melanggar prinsip ______.
+Jawaban: Tabayyun
+
+86. Seorang pemimpin mengambil keputusan yang adil meskipun merugikan kelompoknya sendiri. Tindakan ini mencerminkan nilai utama dalam Islam yaitu ______.
+Jawaban: Keadilan
+
+87. Seseorang merasa tidak senang melihat keberhasilan orang lain dan berharap nikmat tersebut hilang. Sikap ini dalam Islam disebut ______.
+Jawaban: Hasad
+
+88. Dalam bekerja, seorang karyawan tetap jujur meskipun tidak diawasi oleh atasan. Sikap ini menunjukkan kesadaran akan pengawasan Allah yang disebut ______.
+Jawaban: Ihsan
+
+89. Seorang siswa menolak ajakan teman untuk melakukan kecurangan meskipun berisiko dijauhi. Sikap ini menunjukkan kekuatan ______.
+Jawaban: Iman
+
+90. Seseorang beribadah dengan sangat rajin, tetapi menganggap orang lain lebih rendah darinya. Ini menunjukkan adanya penyakit hati berupa ______.
+Jawaban: Takabur
+
+91. Dalam bermuamalah, seseorang selalu menepati janji dan tidak mengkhianati kepercayaan. Sikap ini disebut ______.
+Jawaban: Amanah
+
+92. Seorang siswa tetap berbuat baik kepada orang yang pernah menyakitinya. Ini merupakan implementasi akhlak ______.
+Jawaban: Pemaaf
+
+93. Seseorang mengeluarkan zakat dengan tujuan membersihkan harta dan membantu sesama. Hikmah utama zakat adalah ______ harta dan jiwa.
+Jawaban: Mensucikan
+
+94. Dalam kehidupan sosial, menghargai perbedaan suku, agama, dan budaya disebut dengan sikap ______.
+Jawaban: Toleransi
+
+95. Seorang siswa menggunakan ilmu yang dimilikinya untuk menipu orang lain. Ini menunjukkan penyalahgunaan ______.
+Jawaban: Ilmu
+
+96. Seseorang yang selalu merasa cukup dengan apa yang dimiliki meskipun sederhana menunjukkan sikap ______.
+Jawaban: Qanaah
+
+97. Dalam menghadapi cobaan hidup yang berat, seseorang tetap teguh dalam ketaatan kepada Allah. Sikap ini disebut ______.
+Jawaban: Istiqamah
+
+98. Seseorang membantu orang lain secara sembunyi-sembunyi agar tidak diketahui siapa pun. Ini menunjukkan tingkat keikhlasan yang tinggi yang disebut ______.
+Jawaban: Ikhlas
+
+99. Seorang pelajar mengatur waktu antara belajar, ibadah, dan istirahat secara seimbang. Ini mencerminkan prinsip ______ dalam Islam.
+Jawaban: Keseimbangan
+
+100. Dalam menghadapi konflik, seseorang memilih jalan damai dengan mempertimbangkan kemaslahatan bersama. Ini mencerminkan penerapan prinsip ______ dalam Islam.
+Jawaban: Maslahah`;
+
+const rawPancasila2 = `1. Andi menyampaikan kritik kepada pemerintah melalui media sosial dengan bahasa sopan dan data yang jelas. Tindakan ini menunjukkan…
+A. Pelanggaran hukum
+B. Kebebasan berpendapat yang bertanggung jawab
+C. Penyebaran hoaks
+D. Sikap radikal
+E. Anarkisme
+Jawaban: B
+
+2. Budi memilih calon pemimpin karena diberi uang. Perilaku ini bertentangan dengan asas…
+A. Langsung
+B. Umum
+C. Bebas
+D. Rahasia
+E. Jujur dan adil
+Jawaban: E
+
+3. Seorang warga tidak menggunakan hak pilihnya tanpa alasan. Dampaknya adalah…
+A. Demokrasi semakin kuat
+B. Partisipasi politik menurun
+C. Negara maju
+D. Hukum kuat
+E. Rakyat sejahtera
+Jawaban: B
+
+4. Pemerintah menerima kritik dari masyarakat dan memperbaiki kebijakan. Ini menunjukkan…
+A. Otoriter
+B. Demokratis
+C. Anarkis
+D. Totaliter
+E. Liberal bebas
+Jawaban: B
+
+5. Seorang siswa aktif dalam organisasi OSIS. Ini merupakan contoh…
+A. Pelanggaran hukum
+B. Partisipasi politik
+C. Anarkisme
+D. Individualisme
+E. Radikalisme
+Jawaban: B
+
+6. Pemilu yang jujur dan adil bertujuan untuk…
+A. Menguntungkan kelompok tertentu
+B. Mewujudkan kedaulatan rakyat
+C. Membatasi rakyat
+D. Menekan oposisi
+E. Menghapus demokrasi
+Jawaban: B
+
+7. Kebebasan berpendapat harus disertai dengan…
+A. Kebebasan mutlak
+B. Tanggung jawab
+C. Kekuasaan
+D. Paksaan
+E. Kepentingan pribadi
+Jawaban: B
+
+8. Seseorang menyebarkan ujaran kebencian atas nama kebebasan berpendapat. Ini termasuk…
+A. Hak warga negara
+B. Penyalahgunaan hak
+C. Demokrasi
+D. Toleransi
+E. Nasionalisme
+Jawaban: B
+
+9. Hak dan kewajiban warga negara harus dijalankan secara…
+A. Sepihak
+B. Seimbang
+C. Bebas
+D. Terpaksa
+E. Rahasia
+Jawaban: B
+
+10. Seseorang membayar pajak tepat waktu. Ini merupakan…
+A. Hak warga
+B. Kewajiban warga
+C. Pelanggaran
+D. Kebebasan
+E. Pilihan
+Jawaban: B
+
+11. Negara menjamin kebebasan beragama. Hal ini menunjukkan…
+A. Otoritarianisme
+B. Perlindungan HAM
+C. Diskriminasi
+D. Radikalisme
+E. Anarkisme
+Jawaban: B
+
+12. Menolak aturan negara tanpa alasan jelas termasuk…
+A. Taat hukum
+B. Pelanggaran kewajiban
+C. Demokrasi
+D. Toleransi
+E. Nasionalisme
+Jawaban: B
+
+13. Menggunakan hak pilih secara bijak mencerminkan…
+A. Apatis
+B. Partisipasi aktif
+C. Egois
+D. Anarkis
+E. Pasif
+Jawaban: B
+
+14. Warga negara memiliki kedudukan yang sama di depan hukum. Ini disebut…
+A. Diskriminasi
+B. Equality before the law
+C. Otoriter
+D. Kebebasan mutlak
+E. Individualisme
+Jawaban: B
+
+15. Menyampaikan aspirasi melalui demonstrasi damai merupakan…
+A. Pelanggaran
+B. Hak demokrasi
+C. Anarkisme
+D. Radikalisme
+E. Kriminalitas
+Jawaban: B
+
+16. Seseorang tidak menghargai hak orang lain. Ini berarti…
+A. Menjalankan kewajiban
+B. Melanggar HAM
+C. Demokrasi
+D. Nasionalisme
+E. Toleransi
+Jawaban: B
+
+17. Kedaulatan berada di tangan rakyat berarti…
+A. Raja berkuasa
+B. Rakyat menentukan pemerintahan
+C. Pemerintah absolut
+D. Militer berkuasa
+E. Elite berkuasa
+Jawaban: B
+
+18. Sikap apatis terhadap politik dapat menyebabkan…
+A. Stabilitas meningkat
+B. Demokrasi melemah
+C. Negara maju
+D. Hukum kuat
+E. Rakyat sejahtera
+Jawaban: B
+
+19. Menghargai hasil pemilu adalah bentuk…
+A. Penolakan
+B. Kedewasaan demokrasi
+C. Anarkisme
+D. Otoriter
+E. Egoisme
+Jawaban: B
+
+20. Kritik yang membangun bertujuan untuk…
+A. Menjatuhkan
+B. Memperbaiki
+C. Menghancurkan
+D. Menguasai
+E. Memprovokasi
+Jawaban: B
+
+21. Siswa membantu teman tanpa membeda-bedakan agama. Ini sesuai sila…
+A. 1
+B. 2
+C. 3
+D. 4
+E. 5
+Jawaban: B
+
+22. Gotong royong mencerminkan nilai…
+A. Individualisme
+B. Kebersamaan
+C. Egoisme
+D. Radikalisme
+E. Kapitalisme
+Jawaban: B
+
+23. Menghargai perbedaan budaya sesuai dengan…
+A. Fanatisme
+B. Bhinneka Tunggal Ika
+C. Egoisme
+D. Diskriminasi
+E. Anarkisme
+Jawaban: B
+
+24. Menjaga persatuan bangsa adalah implementasi sila…
+A. 1
+B. 2
+C. 3
+D. 4
+E. 5
+Jawaban: C
+
+25. Musyawarah mufakat mencerminkan sila…
+A. 2
+B. 3
+C. 4
+D. 5
+E. 1
+Jawaban: C
+
+26. Bersikap adil kepada semua orang sesuai sila…
+A. 1
+B. 2
+C. 3
+D. 4
+E. 5
+Jawaban: B
+
+27. Menghormati hak orang lain termasuk nilai…
+A. Kemanusiaan
+B. Egoisme
+C. Individualisme
+D. Anarkisme
+E. Otoriter
+Jawaban: A
+
+28. Menjaga kerukunan antar umat beragama sesuai sila…
+A. 1
+B. 2
+C. 3
+D. 4
+E. 5
+Jawaban: A
+
+29. Membantu korban bencana adalah penerapan sila…
+A. 1
+B. 2
+C. 3
+D. 4
+E. 5
+Jawaban: B
+
+30. Mengutamakan kepentingan bangsa mencerminkan…
+A. Nasionalisme
+B. Egoisme
+C. Individualisme
+D. Fanatisme
+E. Radikalisme
+Jawaban: A
+
+31. Seseorang melanggar aturan lalu dihukum sesuai hukum berlaku. Ini menunjukkan…
+A. Diskriminasi
+B. Supremasi hukum
+C. Anarkisme
+D. Otoriter
+E. Kebebasan
+Jawaban: B
+
+32. Main hakim sendiri menunjukkan…
+A. Kesadaran hukum tinggi
+B. Rendahnya kesadaran hukum
+C. Demokrasi kuat
+D. Nasionalisme
+E. Toleransi
+Jawaban: B
+
+33. UUD 1945 adalah…
+A. Hukum biasa
+B. Hukum tertinggi
+C. Peraturan daerah
+D. Undang-undang
+E. Kebijakan
+Jawaban: B
+
+34. Setiap warga wajib menaati hukum agar…
+A. Bebas
+B. Tertib
+C. Kacau
+D. Bebas mutlak
+E. Tanpa aturan
+Jawaban: B
+
+35. Hak asasi manusia harus…
+A. Diabaikan
+B. Dilindungi
+C. Dibatasi mutlak
+D. Dihapus
+E. Dikurangi
+Jawaban: B
+
+36. Pelanggaran HAM berat termasuk…
+A. Gotong royong
+B. Genosida
+C. Musyawarah
+D. Diskusi
+E. Toleransi
+Jawaban: B
+
+37. Peradilan yang adil mencerminkan…
+A. Diskriminasi
+B. Keadilan hukum
+C. Otoriter
+D. Anarkis
+E. Egoisme
+Jawaban: B
+
+38. Warga negara yang taat hukum akan…
+A. Melanggar
+B. Menjaga ketertiban
+C. Merusak
+D. Anarkis
+E. Bebas
+Jawaban: B
+
+39. Fungsi hukum adalah…
+A. Membatasi rakyat
+B. Mengatur ketertiban
+C. Menindas
+D. Membebaskan mutlak
+E. Menghapus aturan
+Jawaban: B
+
+40. Supremasi hukum berarti…
+A. Kekuasaan tertinggi
+B. Hukum sebagai kekuasaan tertinggi
+C. Rakyat bebas
+D. Pemerintah bebas
+E. Tanpa hukum
+Jawaban: B
+
+41. Siswa mencintai produk lokal. Ini menunjukkan…
+A. Nasionalisme
+B. Globalisasi
+C. Egoisme
+D. Individualisme
+E. Fanatisme
+Jawaban: A
+
+42. Globalisasi dapat menyebabkan…
+A. Isolasi
+B. Perubahan budaya
+C. Tidak ada perubahan
+D. Stabil mutlak
+E. Tanpa pengaruh
+Jawaban: B
+
+43. Menyaring budaya asing adalah bentuk…
+A. Penolakan total
+B. Selektif
+C. Bebas mutlak
+D. Meniru
+E. Menolak semua
+Jawaban: B
+
+44. Cinta tanah air ditunjukkan dengan…
+A. Merusak
+B. Menjaga
+C. Menghina
+D. Menjual
+E. Mengabaikan
+Jawaban: B
+
+45. Persatuan bangsa penting untuk…
+A. Perpecahan
+B. Kekuatan negara
+C. Konflik
+D. Kekacauan
+E. Permusuhan
+Jawaban: B
+
+46. Konflik dapat diselesaikan dengan…
+A. Kekerasan
+B. Musyawarah
+C. Perang
+D. Paksaan
+E. Anarkis
+Jawaban: B
+
+47. Integrasi nasional berarti…
+A. Perpecahan
+B. Persatuan
+C. Konflik
+D. Perang
+E. Diskriminasi
+Jawaban: B
+
+48. Menghargai perbedaan menjaga…
+A. Konflik
+B. Persatuan
+C. Permusuhan
+D. Perpecahan
+E. Anarkisme
+Jawaban: B
+
+49. Generasi muda harus menjaga budaya agar…
+A. Hilang
+B. Lestari
+C. Rusak
+D. Punah
+E. Ditinggalkan
+Jawaban: B
+
+50. Nasionalisme penting untuk…
+A. Egoisme
+B. Persatuan bangsa
+C. Individualisme
+D. Konflik
+E. Perpecahan
+Jawaban: B
+
+51. Seorang warga menyampaikan kritik kepada pemerintah melalui media sosial dengan bahasa sopan dan data yang valid. Tindakan ini mencerminkan pelaksanaan hak warga negara dalam bidang ______.
+Jawaban: Kebebasan berpendapat
+
+52. Dalam pemilu, seorang pemilih memilih berdasarkan uang yang diberikan calon, bukan visi misi. Perilaku ini bertentangan dengan prinsip ______ dalam demokrasi.
+Jawaban: Jujur dan adil
+
+53. Seorang pejabat menggunakan jabatannya untuk kepentingan pribadi. Tindakan ini melanggar prinsip ______ dalam penyelenggaraan negara.
+Jawaban: Integritas
+
+54. Masyarakat yang beragam suku, agama, dan budaya tetap hidup rukun. Hal ini mencerminkan penerapan semboyan ______.
+Jawaban: Bhinneka Tunggal Ika
+
+55. Seorang siswa menaati peraturan sekolah walaupun tidak diawasi. Ini menunjukkan kesadaran hukum yang disebut ______.
+Jawaban: Kesadaran hukum
+
+56. Dalam musyawarah, keputusan diambil berdasarkan kesepakatan bersama. Prinsip ini sesuai dengan sila ke-______ Pancasila.
+Jawaban: 4
+
+57. Setiap warga negara memiliki kedudukan yang sama di hadapan hukum. Prinsip ini disebut ______.
+Jawaban: Equality before the law
+
+58. Seorang warga aktif ikut kerja bakti di lingkungan. Ini merupakan bentuk partisipasi dalam bidang ______.
+Jawaban: Sosial
+
+59. Seseorang menyebarkan berita hoaks yang memecah persatuan bangsa. Hal ini bertentangan dengan nilai ______ Pancasila.
+Jawaban: Persatuan Indonesia
+
+60. Negara menjamin kebebasan beragama bagi seluruh warga negara. Hal ini sesuai dengan UUD 1945 Pasal ______.
+Jawaban: Pasal 29
+
+61. Seorang warga menolak membayar pajak padahal mampu. Ia telah melalaikan ______ sebagai warga negara.
+Jawaban: Kewajiban
+
+62. Dalam kehidupan demokrasi, perbedaan pendapat harus disikapi dengan ______.
+Jawaban: Toleransi
+
+63. Tindakan main hakim sendiri menunjukkan rendahnya ______ dalam masyarakat.
+Jawaban: Kesadaran hukum
+
+64. Seseorang menggunakan hak pilihnya dalam pemilu secara bertanggung jawab. Ini menunjukkan partisipasi politik yang ______.
+Jawaban: Aktif
+
+65. Upaya bela negara tidak selalu dengan senjata, tetapi juga dengan belajar sungguh-sungguh. Ini termasuk bentuk bela negara secara ______.
+Jawaban: Non-militer
+
+66. Sikap mengutamakan kepentingan bangsa di atas kepentingan pribadi disebut ______.
+Jawaban: Nasionalisme
+
+67. Pemerintah yang terbuka terhadap kritik masyarakat mencerminkan prinsip ______.
+Jawaban: Demokrasi
+
+68. Seseorang menyelesaikan konflik melalui jalur hukum, bukan kekerasan. Ini mencerminkan penerapan ______.
+Jawaban: Supremasi hukum
+
+69. Menghargai hak orang lain merupakan bagian dari pelaksanaan ______ warga negara.
+Jawaban: Keseimbangan hak dan kewajiban
+
+70. Generasi muda menjaga budaya lokal di tengah arus globalisasi. Ini merupakan bentuk ______ terhadap bangsa.
+Jawaban: Cinta tanah air`;
 
 const rawPancasila = `🟦 A. SOAL HOTS (30 Soal)
 
@@ -1281,12 +2443,17 @@ const parseRawQuestions = (rawText) => {
       finalQuestion = `<div style="background: rgba(255,255,255,0.05); padding: 1rem; border-left: 3px solid var(--accent); margin-bottom: 1rem; border-radius: 4px; font-style: italic;">${contextText}</div><strong>Pertanyaan:</strong><br>${qLine}`;
     }
 
+    const type = options.length > 0 ? 'multiple-choice' : 'essay';
+
     questions.push({
       id: qNum,
+      type: type,
       question: finalQuestion,
       options,
       correctAnswer: answer,
-      explanation: `Kunci Jawaban yang tepat adalah opsi ${answer}.`
+      explanation: type === 'multiple-choice' 
+        ? `Kunci Jawaban yang tepat adalah opsi ${answer}.`
+        : `Jawaban yang benar adalah: ${answer}`
     });
   });
 
@@ -1298,9 +2465,19 @@ export const getQuestionsBySubject = (subjectId) => {
   if (subjectId === 'agm') {
     return parseRawQuestions(rawAgama);
   }
+  if (subjectId === 'agm2') {
+    if (typeof rawAgama2 !== 'undefined') {
+      return parseRawQuestions(rawAgama2);
+    }
+  }
   if (subjectId === 'pnc') {
     if (typeof rawPancasila !== 'undefined') {
       return parseRawQuestions(rawPancasila);
+    }
+  }
+  if (subjectId === 'pnc2') {
+    if (typeof rawPancasila2 !== 'undefined') {
+      return parseRawQuestions(rawPancasila2);
     }
   }
   if (subjectId === 'ind') {

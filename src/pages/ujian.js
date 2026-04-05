@@ -155,7 +155,9 @@ const renderActiveExam = (examState) => {
         </p>
         
         <div class="options-container">
-          ${optionsHtml}
+          ${question.type === 'multiple-choice' ? optionsHtml : `
+            <textarea id="essay-answer" class="glass-panel" style="width: 100%; min-height: 150px; background: rgba(15, 23, 42, 0.4); border: 1px solid var(--glass-border); color: var(--text-main); padding: 1rem; border-radius: var(--radius-sm); font-family: inherit; font-size: 1rem; resize: vertical;" placeholder="Ketik jawaban Anda di sini...">${examState.answers[question.id] || ''}</textarea>
+          `}
         </div>
       </div>
       
@@ -183,23 +185,32 @@ const renderActiveExam = (examState) => {
     }
   }, 1000);
 
-  // Selection Logic
-  document.querySelectorAll('.option-row').forEach(row => {
-    row.addEventListener('click', (e) => {
-      const key = e.currentTarget.getAttribute('data-key');
-      examState.answers[question.id] = key;
-      saveCurrentExam(examState);
-      // Update UI Select
-      document.querySelectorAll('.option-row').forEach(r => {
-        r.classList.remove('selected');
-        r.style.background = 'rgba(15, 23, 42, 0.6)';
-        r.style.border = '1px solid var(--glass-border)';
+  // Selection Logic (Multiple Choice)
+  if (question.type === 'multiple-choice') {
+    document.querySelectorAll('.option-row').forEach(row => {
+      row.addEventListener('click', (e) => {
+        const key = e.currentTarget.getAttribute('data-key');
+        examState.answers[question.id] = key;
+        saveCurrentExam(examState);
+        // Update UI Select
+        document.querySelectorAll('.option-row').forEach(r => {
+          r.classList.remove('selected');
+          r.style.background = 'rgba(15, 23, 42, 0.6)';
+          r.style.border = '1px solid var(--glass-border)';
+        });
+        e.currentTarget.classList.add('selected');
+        e.currentTarget.style.background = 'rgba(59, 130, 246, 0.2)';
+        e.currentTarget.style.border = '1px solid var(--primary)';
       });
-      e.currentTarget.classList.add('selected');
-      e.currentTarget.style.background = 'rgba(59, 130, 246, 0.2)';
-      e.currentTarget.style.border = '1px solid var(--primary)';
     });
-  });
+  } else {
+    // Essay Logic
+    const textarea = document.getElementById('essay-answer');
+    textarea.addEventListener('input', (e) => {
+      examState.answers[question.id] = e.target.value;
+      saveCurrentExam(examState);
+    });
+  }
 
   // Nav Logic
   document.getElementById('btn-prev').addEventListener('click', () => {
@@ -241,8 +252,24 @@ const finishExam = (examState) => {
   // Calculate score & differences
   let totalCorrect = 0;
   const analysis = examState.questions.map(q => {
-    const userAnswer = examState.answers[q.id] || '-';
-    const isCorrect = userAnswer === q.correctAnswer;
+    const userAnswer = (examState.answers[q.id] || '-').trim();
+    let isCorrect = false;
+
+    if (q.type === 'multiple-choice') {
+      isCorrect = userAnswer === q.correctAnswer;
+    } else {
+      // Simple fuzzy match for short answers
+      const correctAnswers = q.correctAnswer.toLowerCase()
+        .split('/')
+        .map(a => a.trim().replace(/[()]/g, ''));
+      
+      isCorrect = correctAnswers.some(ans => {
+        // If the correct answer is contained in user answer or vice versa
+        const cleanUser = userAnswer.toLowerCase();
+        return cleanUser.includes(ans) || ans.includes(cleanUser);
+      });
+    }
+
     if (isCorrect) totalCorrect++;
     
     return {
